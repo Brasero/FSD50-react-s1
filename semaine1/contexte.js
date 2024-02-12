@@ -46,43 +46,90 @@
 //     console.log("Expression");
 // }
 
-const Add = {
-    a: 0,
-    b: 0,
-    numbers: [],
-    sum: function() {
-        if(isNaN(parseFloat(this.a)) || isNaN(parseFloat(this.b))) throw new Error('Valeur invalide');
+// const Add = {
+//     a: 0,
+//     b: 0,
+//     numbers: [],
+//     sum: function() {
+//         if(isNaN(parseFloat(this.a)) || isNaN(parseFloat(this.b))) throw new Error('Valeur invalide');
+//
+//         this.numbers.map((num) => {
+//             if (isNaN(parseFloat(num))) throw new Error('Valeurs du tableau numbers invalide');
+//         })
+//
+//         let total = this.a + this.b;
+//         total += this.numbers.reduce((acc, current) => {
+//             return acc + parseFloat(current)
+//         }, 0);
+//         console.log(total);
+//     },
+//     reset: function() {
+//         this.a = 0;
+//         this.b = 0;
+//         this.numbers = [];
+//     }
+// }
+//
+// Add.a = 10;
+// Add.b = 12;
+//
+// Add.sum();
+//
+// Add.numbers = [15, 20];
+//
+// Add.sum();
+//
+// Add.reset();
+//
+// Add.sum();
+//
+// Add.numbers = ["10", 25];
+//
+// Add.sum();
+//
+// const log = {
+//     count: 100,
+//     save: function () {
+//         "use strict";
+//         console.log(this.count);
+//     },
+// };
+// setTimeout(log.save, 500);
 
-        this.numbers.map((num) => {
-            if (isNaN(parseFloat(num))) throw new Error('Valeurs du tableau numbers invalide');
-        })
 
-        let total = this.a + this.b;
-        total += this.numbers.reduce((acc, current) => {
-            return acc + parseFloat(current)
-        }, 0);
-        console.log(total);
+const arrowFunc = (x) => {
+    return x ** 2
+}
+
+const equivFunc = (x) => 'hello' + x
+
+const model = (x, y) => {
+    return {x, y}
+}
+
+const equivModel = (x, y) => ({x, y})
+
+const School = {
+    name: 'Alan',
+    sayHello() {
+        const that = this
+        function getName() {
+            console.log(that.name)
+            console.log(this.name)
+        }
+
+        getName()
     },
-    reset: function() {
-        this.a = 0;
-        this.b = 0;
-        this.numbers = [];
+    sayHelloArrow() {
+        let func = () => {
+            console.log(this.name)
+        }
+        func()
     }
 }
 
-Add.a = 10;
-Add.b = 12;
+School.sayHelloArrow()
 
-Add.sum();
+console.log("------------")
 
-Add.numbers = [15, 20];
-
-Add.sum();
-
-Add.reset();
-
-Add.sum();
-
-Add.numbers = ["10", 25];
-
-Add.sum();
+School.sayHello();
