@@ -235,3 +235,15 @@ stats = {};
     const regex = new RegExp(letter, "g");
     stats = {...stats, [letter]: word.match(regex).length}
 })
+
+const calcOccurance = (word) => {
+    let stats = {}
+    const searchLetters = new Set(word);
+    [...searchLetters].map(letter => {
+        const regex = new RegExp(letter, 'g');
+        stats = {...stats, [letter]: word.match(regex).length}
+    })
+    return stats;
+}
+
+console.log(calcOccurance('blabla'))
