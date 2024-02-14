@@ -247,3 +247,14 @@ const calcOccurance = (word) => {
 }
 
 console.log(calcOccurance('blabla'))
+
+/*
+10 Exercice count digit
+Soit la chaîne de caractères suivante, récupérez tous les numériques de cette chaîne dans un tableau :
+ */
+
+const phrases = '8790:bonjour le monde:8987:7777:Hello World:9007';
+
+const nums = phrases.split(':').filter(Number)
+
+console.log(nums);
