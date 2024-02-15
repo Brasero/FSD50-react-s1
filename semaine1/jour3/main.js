@@ -253,3 +253,119 @@ console.log(copy[0].family === students3[0].family)
 console.log(spreadCopy === students3)
 console.log(spreadCopy[0].family === students3[0].family)
 console.log(spreadCopy, students3)
+
+/*
+03 sujet Challenge populations
+
+1) Ordonnez les données populations par ordre croissant de longueur de nom.
+2) Ajoutez une clé lenName aux éléments du tableau populations afin d'assigner la longueur de chaque nom à cette variable.
+3) Regroupez maintenant dans un nouveau tableau groupNames les noms de même longueur.
+ */
+
+const populations = [
+    { id: 0, name: "Alan" },
+    { id: 1, name: "Albert" },
+    { id: 2, name: "John" },
+    { id: 3, name: "Brice" },
+    { id: 4, name: "Alexandra" },
+    { id: 5, name: "Brad" },
+    { id: 6, name: "Carl" },
+    { id: 7, name: "Dallas" },
+    { id: 8, name: "Dennis" },
+    { id: 9, name: "Edgar" },
+    { id: 10, name: "Erika" },
+    { id: 11, name: "Isaac" },
+    { id: 12, name: "Ian" },
+];
+
+//Vous pouvez présenter les résultats recherchés comme suit :
+const exemple = [
+    [ { id: 12, name: 'Ian', lenName: 3 } ],
+    [
+        { id: 0, name: 'Alan', lenName: 4 },
+        { id: 2, name: 'John', lenName: 4 },
+        { id: 5, name: 'Brad', lenName: 4 },
+        { id: 6, name: 'Carl', lenName: 4 }
+    ],
+    [
+        { id: 3, name: 'Brice', lenName: 5 },
+        { id: 9, name: 'Edgar', lenName: 5 },
+        { id: 10, name: 'Erika', lenName: 5 },
+        { id: 11, name: 'Isaac', lenName: 5 }
+    ],
+    [
+        { id: 1, name: 'Albert', lenName: 6 },
+        { id: 7, name: 'Dallas', lenName: 6 },
+        { id: 8, name: 'Dennis', lenName: 6 }
+    ],
+    [ { id: 4, name: 'Alexandra', lenName: 9 } ]
+]
+
+//1) Ordonnez les données populations par ordre croissant de longueur de nom.
+populations.sort((p1, p2) => p1.name.length - p2.name.length)
+
+console.log('Triage', populations)
+//2) Ajoutez une clé lenName aux éléments du tableau populations afin d'assigner la longueur de chaque nom à cette variable.
+
+for (const pop of populations) {
+    pop.lenName = pop.name.length
+}
+
+console.log('lenName', populations)
+
+//3) Regroupez maintenant dans un nouveau tableau groupNames les noms de même longueur.
+
+const groupNames = [];
+const lenNames = new Set(populations.map(pop => pop.lenName))
+
+console.log('lenNames', lenNames)
+
+for (const len of lenNames){
+    groupNames.push(populations.filter(pop => pop.lenName === len))
+}
+
+console.log('groupName', groupNames)
+
+const groupNames2 = [];
+const testLen = []; //On stock toutes les longueurs déjà testée
+
+for (const pop of populations) {
+    const len = pop.lenName
+
+    if (!testLen.includes(len)) {
+        groupNames2.push(populations.filter(pop => pop.lenName === len))
+    }
+
+    testLen.push(len)
+}
+
+console.log('groupName2', groupNames2)
+
+// 4) (Facultatif)
+// Créez une clé relations au tableau populations et ajoutez pour chaque personne le nom de ses relations.
+// Ordonnez-les par ordre croissant de nombre de relations.
+// Affichez la personne qui a le plus de relations.
+
+const relations = [
+    { id : 0 , relation : [1, 2, 4]},
+    { id : 3 , relation : [7, 8]},
+    { id : 4 , relation : [2, 7, 8, 11]},
+    { id : 5 , relation : [1, 2, 4]},
+    { id : 7 , relation : [2, 3, 5, 9]},
+    { id : 9 , relation : [1, 2, 4, 8, 11]},
+    { id : 11 , relation : [1, 2, 9, 10,]},
+]
+
+for (const {id, relation} of relations) {
+    const person = populations.find(pop => pop.id === id)
+
+    if (person) {
+        person.relation = populations.filter(pop => relation.includes(pop.id)).map(pop => pop.name)
+    }
+}
+
+console.log('PopRelation', populations)
+
+const mostRelation = populations.filter(pop => pop.relation !== undefined).reduce((acc, curr) => acc.relation.length > curr.relation.length ? acc : curr, {relation:[]})
+
+console.log(mostRelation)
