@@ -183,11 +183,11 @@ const ocurences = populations
     .map(({password, name}) => {
         const letters = new Set(password)
         const chars = password.split('')
-        const ocurence = []
+        const ocurence = [];
         for(const letter of letters) {
-            ocurence[letter] = chars
+            ocurence.push( [letter, chars
                 .filter(char => char === letter)
-                .length
+                .length])
         }
         return {
             name,
@@ -197,3 +197,75 @@ const ocurences = populations
     })
 
 console.log(ocurences)
+const ocurenceNbArray = []
+for (const {name, password, ocurence} of ocurences) {
+    const nb = ocurence.reduce((acc, curr) => {
+        if (curr[1] !== 1) {
+            return acc + curr[1] - 1
+        }
+        return acc
+    }, 0)
+    ocurenceNbArray.push({
+        nb,
+        name,
+        password
+    })
+}
+
+console.log(ocurenceNbArray)
+
+const minOcurence = ocurenceNbArray.reduce((acc, curr) => {
+    if (curr.nb < acc.nb) {
+        return curr
+    }
+    return  acc
+}).nb
+
+console.log(minOcurence)
+
+const personWithStrongPass = ocurenceNbArray.filter((person) => person.nb === minOcurence)
+
+console.log(personWithStrongPass)
+
+populations
+    .filter((person) => person.password !== undefined)
+    .forEach((person) => {
+        const regex = new RegExp('00', 'g')
+        if (person.password.match(regex)) {
+            console.log(person)
+        }
+    })
+
+const passwordRepetition = [];
+populations
+    .filter(person => person.password !== undefined)
+    .forEach((person) => {
+        if(passwordRepetition.length === 0) {
+            passwordRepetition.push({
+                password: person.password,
+                persons: [person]
+            })
+        } else {
+            let inserted = false
+            passwordRepetition.forEach(({password, persons}) => {
+                if (password === person.password) {
+                    persons.push(person)
+                    inserted = true
+                }
+            })
+            if (inserted !== true) {
+                passwordRepetition.push({
+                    password: person.password,
+                    persons: [person]
+                })
+            }
+        }
+    })
+
+console.log(passwordRepetition)
+
+passwordRepetition.forEach((pass) => {
+    if(pass.persons.length > 1) {
+        console.log(pass.persons, pass.password)
+    }
+})
