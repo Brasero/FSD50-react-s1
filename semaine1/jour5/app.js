@@ -1,4 +1,5 @@
-import fs from 'fs'
+import fs from 'fs';
+import fetch from 'node-fetch';
 
 // function fileAsync (filePath) {
 //     return new Promise((resolve, reject) => {
@@ -95,3 +96,20 @@ async function generateRandomString () {
 generateRandomString()
     .then((string) => console.log(`Chaine aléatoire ${string}`))
     .catch((err) => console.error('une erreur s\'est produite', err))
+
+const filePath = './data/user.json';
+fetch('https://jsonplaceholder.typicode.com/users')
+    .then((res) => res.json())
+    .then(users => {
+        const newUsers = users.map(user => ({
+            name: user.name,
+            geo: user.address.geo
+        }))
+
+        const jsonData = JSON.stringify(newUsers, null, 2)
+
+        fs.writeFile(filePath, jsonData, (err) => {
+            if (err) throw err;
+            console.log('Fichier sauvegardé')
+        })
+    })
