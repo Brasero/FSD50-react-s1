@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- babel => compilation du JSX -->
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+    <title>Counter state</title>
+</head>
+<body>
+
+    <div id="root">
+
+    </div>
+
+    <script type="text/babel">
+
+        const Counter = () => {
+
+         const [count, setCount] = React.useState(0)
+        const [clock, setClock] = React.useState(0)
+
+        React.useEffect(() => {
+            if(count >= 10) {
+                setCount(0)
+            }
+            console.log('Je suis un effet')
+
+            return () => {
+                console.log('Je démonte')
+            }
+        }, [count])
+
+            setTimeout(() => {
+                setClock(clock + 2)
+            }, 1000)
+
+            return (
+                <div>
+                    Counter : {count} {clock}
+                </div>
+            )
+        }
+
+
+        ReactDOM.createRoot(document.querySelector("#root")).render( <Counter /> )
+    </script>
+
+</body>
+</html>
