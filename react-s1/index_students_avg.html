@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CDN React -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- CDN ReactDOM -->
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- babel => compilation du JSX -->
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+    <title>Student AVG</title>
+</head>
+<body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        const calcAvg = (notes) => {
+            const {length} = notes
+            return (Math.floor((notes.reduce((acc, current) => acc + current, 0) / length) * 10) / 10);
+        }
+        const App = () => {
+            const students = [
+                { notes: [12, 11, 10], name: "Alan" },
+                { notes: [18, 10, 19], name: "Alice" },
+                { notes: [10, 9, 11], name: "Bernard" },
+                { notes: [11, 17, 19], name: "Sophie" },
+            ];
+
+            return (
+                <ul>
+                    {
+                        students.map((student, index) => {
+                            return <Student student={student} key={index} />
+                        })
+                    }
+                </ul>
+            )
+        }
+
+        const Student = ({student}) => {
+            const avg = calcAvg(student.notes)
+            return (
+                <li>{student.name}: {avg}</li>
+            )
+        }
+
+        ReactDOM.createRoot(
+            document.querySelector("#root")
+        ).render(
+            <App />
+        )
+    </script>
+
+</body>
+</html>
