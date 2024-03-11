@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- babel => compilation du JSX -->
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+    <title>Class State</title>
+</head>
+<body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        class TestState extends React.Component {
+
+            constructor(props) {
+                super(props);
+
+                this.state = {
+                    count: 0
+                }
+            }
+
+            render() {
+                setTimeout(() => {
+                    this.setState({count: this.state.count + 1});
+                }, 1000)
+
+                return (
+                    <div>
+                        Counter : {this.state.count}
+                    </div>
+                )
+            }
+
+        }
+
+        ReactDOM.createRoot(document.querySelector("#root")).render(<TestState />)
+
+    </script>
+
+</body>
+</html>
