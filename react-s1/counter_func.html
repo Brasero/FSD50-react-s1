@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- babel => compilation du JSX -->
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+
+    <title>Counter Func</title>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+    const Counter = ({step = 1, max = 20}) => {
+
+        const [count, setCount] = React.useState(0)
+        const [cycle, setCycle] = React.useState(0)
+
+        setTimeout(() => {
+            setCount(count + step)
+        }, 1000)
+
+        React.useEffect(() => {
+            if(count >= max) {
+                setCount(0)
+                setCycle(cycle + 1)
+            }
+        }, [count])
+
+        const handleClick = (e) => {
+            console.log(e.target.style)
+            alert('tu as cliqué')
+        }
+
+        return (
+            <div style={{color: 'red'}} onClick={handleClick}>
+                Counter : {count}
+                Nb cycle : {cycle}
+            </div>
+        )
+    }
+
+    const App = () => {
+
+        return(
+            <div>
+                <Counter step={3}/>
+                <Counter step={6} />
+            </div>
+        )
+    }
+
+    ReactDOM.createRoot(document.querySelector("#root")).render(<App />)
+</script>
+
+</body>
+</html>

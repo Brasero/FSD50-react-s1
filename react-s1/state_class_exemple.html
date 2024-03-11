@@ -23,19 +23,23 @@
             constructor(props) {
                 super(props);
 
-                this.state = {
-                    count: 0
-                }
+                //Solution 1 pour éviter la perte du scope de this
+                //on bind la valeur de this a la fonction, autrement dit on lie la valeur de this
+                // this.click = this.click.bind(this)
+            }
+
+            //Solution 2 pour eviter la perte du scope de this
+            //on passe une fonction fléchée au lieu d'une fonction nommée
+            //une fonction fléchée n'ayant pas de contexte this qui lui est propre le scope n'est pas perdu
+            click = () => {
+                console.log(this)
             }
 
             render() {
-                setTimeout(() => {
-                    this.setState({count: this.state.count + 1});
-                }, 1000)
 
                 return (
-                    <div>
-                        Counter : {this.state.count}
+                    <div onClick={this.click}>
+                        Counter :
                     </div>
                 )
             }
