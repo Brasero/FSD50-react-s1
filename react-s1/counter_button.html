@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- babel => compilation du JSX -->
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+    <title>Counter buttons</title>
+
+    <style>
+        .main {
+            width: 100%;
+            height: 100dvh;
+            place-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        const App = () => {
+
+            const [count, setCount] = React.useState(0);
+            const [message, setMessage] = React.useState("");
+            const [disabled, setDisabled] = React.useState(true);
+
+            const increment = () => {
+                setCount(count + 1)
+                setDisabled(false)
+                setMessage('')
+            }
+
+            const decrement = () => {
+                if(count === 0) {
+                    setDisabled(true)
+                    setMessage("Attention, vous ne pouvez décrémenter en dessous de 0")
+
+                    return;
+                }
+
+                setCount(count - 1)
+            }
+
+            return (
+                <div className={'main'}>
+                    <div>{count}</div>
+                    {
+                        message !== '' && <p style={{color: 'red'}}>{message}</p>
+                    }
+                    <div>
+                        <button onClick={decrement} disabled={disabled}>-1</button>
+                        <button onClick={increment}>+1</button>
+                    </div>
+                </div>
+            )
+        }
+
+        ReactDOM.createRoot(document.querySelector("#root")).render(<App />)
+    </script>
+
+</body>
+</html>
