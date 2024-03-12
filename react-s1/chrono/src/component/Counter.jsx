@@ -1,5 +1,7 @@
 import {useState, useEffect} from 'react';
 
+
+
 const Counter = ({step = 1, binary = false, cyclique = false}) => {
 
     const [count, setCount] = useState(0);
@@ -28,10 +30,10 @@ const Counter = ({step = 1, binary = false, cyclique = false}) => {
         setCount(0)
         setDisabled(false)
     }
-
     const base = (base = 10) => {
         return count.toString(base)
     }
+
 
     useEffect(() => {
         if (count >= 20) {
@@ -41,6 +43,12 @@ const Counter = ({step = 1, binary = false, cyclique = false}) => {
             }
         }
     }, [count]);
+
+    useEffect(() => {
+        return () => {
+            console.log('j ai démonter')
+        }
+    }, []);
 
     return (
         <>
