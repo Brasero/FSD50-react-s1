@@ -1,11 +1,11 @@
 import './computer.css';
 
-const Computer = () => {
+const Computer = ({value}) => {
 
     return (
         <div className="computer__wrapper">
             <span className="computer__value">
-                0
+                {value}
             </span>
         </div>
     )

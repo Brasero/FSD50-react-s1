@@ -1,11 +1,11 @@
 import NumberButton from "./NumberButton.jsx"
 import CalcButton from './CalcButton.jsx'
-const Buttons = () => {
+const Buttons = ({dispatch}) => {
 
     return (
         <div style={{display: 'flex', alignItems: 'flex-start'}}>
-            <NumberButton />
-            <CalcButton />
+            <NumberButton dispatch={dispatch} />
+            <CalcButton dispatch={dispatch} />
         </div>
     )
 }
