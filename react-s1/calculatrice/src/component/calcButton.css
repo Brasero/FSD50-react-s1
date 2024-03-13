@@ -12,3 +12,8 @@
     justify-content: center;
     align-items: center;
 }
+
+.calcButton button:last-of-type {
+    background: orange;
+    text-transform: uppercase;
+}

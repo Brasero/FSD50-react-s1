@@ -25,7 +25,27 @@ const calculate = (state) => {
             return current !== 0 ? prev / current : "Les division par 0 sont impossible"
 
         default:
-            return 0;
+            return current;
+    }
+}
+
+const changeCurrent = (state, action) => {
+    if (state.current === 0) {
+        if (action.payload === ".") {
+            if (!(String(state.current).includes('.'))) {
+                return state.current.toString() + action.payload.toString()
+            } else {
+                return state.current
+            }
+        } else {
+            return action.payload
+        }
+    } else {
+        if(action.payload === '.' && String(state.current).includes('.')) {
+            return state.current
+        }
+
+        return state.current.toString() + action.payload.toString()
     }
 }
 
@@ -41,15 +61,14 @@ const reducer = (state, action) => {
         case 'changeCurrent':
             return {
                 ...state,
-                current: state.current === 0 ?
-                    action.payload : state.current.toString() + action.payload.toString(),
+                current: changeCurrent(state, action),
                 errorMessage: ""
             }
 
         case 'setOperator':
             return {
                 ...state,
-                prev: parseFloat(state.current),
+                prev: calculate(state),
                 current: 0,
                 operator: action.payload
             }
