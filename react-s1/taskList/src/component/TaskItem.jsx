@@ -1,7 +1,10 @@
 import './taskItem.css';
+import {useTaskContext} from '../utils/taskContext.jsx'
 
 
-const TaskItem = ({task, dispatch}) => {
+const TaskItem = ({task}) => {
+
+    const [_, dispatch] = useTaskContext()
 
     const handleDelete = () => {
         console.log(`delete task ${task.id}`)

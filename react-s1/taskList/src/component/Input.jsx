@@ -1,7 +1,11 @@
 import './input.css';
+import {useTaskContext} from '../utils/taskContext.jsx'
 
+const Input = () => {
 
-const Input = ({error, value, dispatch}) => {
+    const [state, dispatch] = useTaskContext()
+
+    const {input: value, errorMessage: error} = state
 
     const handleChange = (e) => {
         const {value} = e.target
