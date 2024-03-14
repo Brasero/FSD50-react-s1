@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b20e582-c6ae-4a70-b3cd-e4b2fb28c682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/enonce_challenge.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meteoApp/src/component/SearchTown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meteoApp/src/component/Suggest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meteoApp/src/reducer/townReducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meteoApp/src/utils/context/TownContext.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.26",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B/postsList",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B/meteoApp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +56,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Bureau\NodeProject\3WA\fsd50B\meteoApp\" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +74,7 @@
       <workItem from="1710230389113" duration="21148000" />
       <workItem from="1710319125816" duration="17877000" />
       <workItem from="1710404839153" duration="606000" />
-      <workItem from="1710407353769" duration="3590000" />
+      <workItem from="1710407353769" duration="10385000" />
     </task>
     <servers />
   </component>

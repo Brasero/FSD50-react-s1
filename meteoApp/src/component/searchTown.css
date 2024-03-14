@@ -1,0 +1,18 @@
+.search__header__title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #535bf2;
+}
+
+.search__inputGroup {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    height: 25px;
+    font-size: 1.2rem;
+    outline: none;
+}
