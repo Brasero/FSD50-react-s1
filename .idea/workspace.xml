@@ -5,94 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b20e582-c6ae-4a70-b3cd-e4b2fb28c682" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/enonce_challenge.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/Buttons.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/CalcButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/Computer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/NumberButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/calcButton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/computer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/numberButton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/component/Button.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/component/Input.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/component/Result.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/component/Counter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/component/Input.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/component/List.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/chrono/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/class_clock.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/counter_button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/counter_func.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/counter_state.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/index_horloge_clock.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/index_students_avg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/numbers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/presentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/state_class_exemple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/Input.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/TaskItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/TaskList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/taskItem.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/taskList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/reducer/taskReducer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/utils/taskContext.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-s1/taskList/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +42,7 @@
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.26",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B/postsList",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -152,7 +66,7 @@
       <workItem from="1710230389113" duration="21148000" />
       <workItem from="1710319125816" duration="17877000" />
       <workItem from="1710404839153" duration="606000" />
-      <workItem from="1710407353769" duration="51000" />
+      <workItem from="1710407353769" duration="3590000" />
     </task>
     <servers />
   </component>
