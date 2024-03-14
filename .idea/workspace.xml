@@ -4,7 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c6cafd-ce12-4a71-bce7-c438fff23d2a" name="Changes" comment="" />
+    <list default="true" id="3b20e582-c6ae-4a70-b3cd-e4b2fb28c682" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/Buttons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/CalcButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/Computer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/NumberButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/calcButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/computer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/component/numberButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatrice/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/component/Button.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/component/Result.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/calculatriceSimple/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/component/Counter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/component/List.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/chrono/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/class_clock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/counter_button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/counter_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/counter_state.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/index_horloge_clock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/index_students_avg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/presentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/state_class_exemple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/TaskItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/TaskList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/taskItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/component/taskList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/reducer/taskReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/src/utils/taskContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-s1/taskList/vite.config.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,62 +110,62 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php7.4.33\php.exe" />
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2cGBtLZlzfTTgtVMiEa9xosjOrS" />
+  <component name="ProjectId" id="2dV4ahaZ0biRVUNCtKPle1bM25p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.19&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B/semaine1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.26",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "C:\\Program Files\\nodejs\\npm.cmd",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\OneDrive\Bureau\NodeProject\3WA\fsd50B\semaine1" />
-      <recent name="C:\Users\User\OneDrive\Bureau\NodeProject\3WA\fsd50B\semaine1\jour4" />
-      <recent name="C:\Users\User\OneDrive\Bureau\NodeProject\3WA\fsd50B\semaine1\jour3" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\OneDrive\Bureau\NodeProject\3WA\fsd50B\semaine1\jour1" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37c6cafd-ce12-4a71-bce7-c438fff23d2a" name="Changes" comment="" />
+      <changelist id="3b20e582-c6ae-4a70-b3cd-e4b2fb28c682" name="Changes" comment="" />
       <created>1691402150558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691402150558</updated>
-      <workItem from="1707728250046" duration="15855000" />
-      <workItem from="1707813244705" duration="15410000" />
-      <workItem from="1707901647611" duration="11605000" />
-      <workItem from="1707982885539" duration="16340000" />
-      <workItem from="1708070844153" duration="17586000" />
-      <workItem from="1709125038088" duration="138000" />
+      <workItem from="1710079977560" duration="1411000" />
+      <workItem from="1710146296751" duration="18146000" />
+      <workItem from="1710230389113" duration="21148000" />
+      <workItem from="1710319125816" duration="17877000" />
+      <workItem from="1710404839153" duration="606000" />
+      <workItem from="1710407353769" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
