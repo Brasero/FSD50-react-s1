@@ -5,11 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b20e582-c6ae-4a70-b3cd-e4b2fb28c682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/meteoApp/src/component/SearchTown.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meteoApp/src/component/Suggest.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meteoApp/src/reducer/townReducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meteoApp/src/utils/context/TownContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/SelectCategory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/Buttons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/CalcButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/Computer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/NumberButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/calcButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/computer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/numberButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/component/Button.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/component/Result.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceSimple/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/component/Counter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/component/List.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrono/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_clock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter_button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter_state.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enonce_challenge.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_horloge_clock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_students_avg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/component/Display.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/component/SearchTown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/component/Suggest.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/component/display.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/component/searchTown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/component/suggest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/reducer/townReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/reducer/weatherReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/utils/context/TownContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/utils/context/WeatherContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/utils/townAdapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/src/utils/weatherAdapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteoApp/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/component/Form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/component/PostItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/component/PostsList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/reducer/postReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/src/utils/postContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postsList/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/state_class_exemple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/component/Input.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/component/TaskItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/component/TaskList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/component/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/component/taskItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/component/taskList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/reducer/taskReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/src/utils/taskContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskList/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +168,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "evaluation",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.26",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B/meteoApp",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd50B",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +202,7 @@
       <workItem from="1710319125816" duration="17877000" />
       <workItem from="1710404839153" duration="606000" />
       <workItem from="1710407353769" duration="10385000" />
+      <workItem from="1710449365772" duration="1095000" />
     </task>
     <servers />
   </component>
